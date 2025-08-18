@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display:grid;
+            grid-template-rows:100px 100px 100px 100px  ;
+            grid-template-columns: 100px 100px 100px 100px;
+            column-gap: 20px;
+            row-gap: 20px;
+            text-align: center;
+            justify-content: center;
+
+        }
+        .item{
+            border:2px solid black;
+            border-radius: 10px;
+            background-color:black;
+            color:white;
+            padding:20px;
+            justify-items: center;
+
+         
+        }
+        .container{
+            gap:20px;
+            display: flex;
+        }
+        .b1,.b2{
+            border: 2px solid black;
+            width:100px;
+            height: 100px;;
+        }
+         .item3{
+           
+           background-color: brown;
+        }
+        
+        body{
+            background-color:wheat;
+        }
+        .item4{
+            border:2px solid black;
+            background-color: azure;
+            row-gap: 0;
+            column-gap: 0;
+        }
+        
+        input{
+            justify-content: center;
+            border:2px solid black;
+            width:452px;
+            height: 90px;
+            display: grid;
+            margin: 60px 80px 10px 515px ;
+            margin-top: 150px;
+            text-align: right;
+            font-size: xx-large;
+            font-weight: 300;
+        }
+        .item:hover{
+            background-color:lavenderblush;
+            cursor:pointer;
+
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="b"><input type="text" id="input"></div>
+    <div class="box">
+        <div class="item" onclick="appendvalue('(')">(</div>
+        <div class="item" onclick="appendvalue(')')">)</div>
+        <div class="item" onclick="appendvalue('%')">%</div>
+        <div class="item" onclick="clean()">AC</div>
+    <div class="item item1" onclick="appendvalue('7')" >7</div>
+    <div class="item item2" onclick="appendvalue('8')">8</div>
+    <div class="item" onclick="appendvalue('9')">9</div>
+    <div class="item" onclick="appendvalue('/')">/</div>
+    <div class="item" onclick="appendvalue('4')">4</div>
+    <div class="item" onclick="appendvalue('5')">5</div>
+    <div class="item" onclick="appendvalue('6')">6</div>
+    <div class="item" onclick="appendvalue('*')">*</div>
+    <div class="item" onclick="appendvalue('1')">1</div>
+    <div class="item" onclick="appendvalue('2')">2</div>
+    <div class="item" onclick="appendvalue('3')">3</div>
+    <div class="item" onclick="appendvalue('-')">-</div>
+    <div class="item" onclick="appendvalue('0')">0</div>
+    <div class="item" onclick="appendvalue('.')">.</div>
+    <div class="item" onclick="appendvalue('+')">+</div>
+    <div class="item item3" onclick="calculate()">=</div>
+       
+        </div>
+        
+        <script>
+            let display=document.getElementById("input");
+            function appendvalue(value){
+                display.value+=value;
+            }
+            function clean(){
+                display.value="";
+            }
+            function calculate() {
+                display.value=eval(display.value);
+            }
+   
+        </script>
+</body>
+</html>
