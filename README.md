@@ -18,3 +18,8 @@ calculator-project/
 │── calculator.html   
 │── calculator.css    
 └── calculator.js     
+
+How It Works:
+ HTML
+  Creates the calculator structure and button layout using a grid system.
+  Loads external CSS and JS files.
