@@ -12,3 +12,9 @@ Technologies Used:
 HTML5
 CSS3 (Grid, Flexbox)
 JavaScript (ES6)
+
+Project Structure:
+calculator-project/
+│── calculator.html   
+│── calculator.css    
+└── calculator.js     
