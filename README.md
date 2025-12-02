@@ -23,3 +23,15 @@ How It Works:
  HTML
   Creates the calculator structure and button layout using a grid system.
   Loads external CSS and JS files.
+ CSS
+  Styles the calculator with:
+  Centered layout
+  Box shadows
+  Grid container
+  Button hover effects
+  Responsive design
+JavaScript
+  Provides the working logic:
+     appendvalue() → adds text to the display
+     clean() → clears the screen
+     calculate() → safely evaluates the expression
