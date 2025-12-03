@@ -35,3 +35,9 @@ JavaScript
      appendvalue() → adds text to the display
      clean() → clears the screen
      calculate() → safely evaluates the expression
+
+How to Run:
+  Download or clone the project
+  Keep all files in the same folder
+  Open calculator.html in any browser
+  Start calculating!
