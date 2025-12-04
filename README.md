@@ -47,4 +47,4 @@ Clone This Project:
   cd your-repo-name
 Then simply open:
   calculator.html
-That’s it — your calculator will open in the browser!
+
