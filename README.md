@@ -41,3 +41,10 @@ How to Run:
   Keep all files in the same folder
   Open calculator.html in any browser
   Start calculating!
+
+Clone This Project:
+  git clone https://github.com/hasini0628/Basic-Calculator.git
+  cd your-repo-name
+Then simply open:
+  calculator.html
+That’s it — your calculator will open in the browser!
