@@ -48,3 +48,5 @@ Clone This Project:
 Then simply open:
   calculator.html
 
+License:
+This project is open-source and free to use for learning purposes.
